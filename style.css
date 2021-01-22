@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 500px;
+  position: relative;
+  top: 400px;
+  overflow: hidden;
+
+  left: 1200px;
+  background-color: grey;
+}
+.info {
+}
+.location {
+  margin-top: 15px;
+  font-size: 80px;
+  text-align: center;
+}
+
+#date {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.temp {
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 2.5rem;
+}
